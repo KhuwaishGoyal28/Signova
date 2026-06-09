@@ -101,4 +101,4 @@ with col_voice_to_sign:
             caption=f"ASL Linguistic Identity Reference Card: {user_speech_input}", 
             width=320
         )
-        
+
