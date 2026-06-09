@@ -76,7 +76,7 @@ def video_frame_callback(frame):
                 x1, x2 = max(0, x1), min(w - 1, x2)
                 y1, y2 = max(0, y1), min(h - 1, y2)
                 
-                # Draw box border lines natively into the matrix array
+                # Draw box border lines natively into the matrix array (Green bounding box)
                 img[y1:y1+3, x1:x2] = [0, 255, 0]  # Top
                 img[y2-3:y2, x1:x2] = [0, 255, 0]  # Bottom
                 img[y1:y2, x1:x1+3] = [0, 255, 0]  # Left
